@@ -1,0 +1,67 @@
+.userLoanForm {
+  width: 100%;
+  margin: auto;
+}
+.userLoanForm__form {
+  width: 100%;
+  margin: auto;
+  max-width: 300px;
+}
+.userLoanForm__heading {
+  text-align: center;
+  margin: 10px;
+  margin: 0;
+  padding: 20px;
+  color: darkturquoise;
+}
+.userLoanForm {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}
+.userLoanForm__label {
+  display: block;
+}
+.userLoanForm__div {
+  height: 85px;
+  width: 80%;
+  margin: auto;
+}
+.userLoanForm__input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  width: 90%;
+}
+.userLoanForm__div-btn {
+  text-align: center;
+}
+.userLoanForm__btn {
+  margin: 8px 0;
+  text-align: center;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkturquoise;
+  color: #232121;
+  font-weight: 600;
+}
+.userLoanForm__error {
+  color: orangered;
+  margin: 1px 0 4px 0;
+  font-size: 0.9rem;
+}
+.userLoanForm__marketing {
+  width: 50%;
+  margin: 10px auto;
+}
+@media only screen and (max-width: 600px) {
+  .userLoanForm {
+    display: block;
+  }
+  .userLoanForm__marketing {
+    width: 90%;
+  }
+}

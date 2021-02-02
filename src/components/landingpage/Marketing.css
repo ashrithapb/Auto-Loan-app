@@ -1,0 +1,10 @@
+.marketing {
+  padding: 15px;
+}
+.marketing__img {
+  max-width: 80%;
+  margin: 30px;
+}
+.marketing__div-img {
+  text-align: center;
+}
